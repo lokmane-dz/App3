@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "300008436243",
+    "project_id": "myapp3-be386",
+    "storage_bucket": "myapp3-be386.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300008436243:android:e17224771e4a666494c5e6",
+        "android_client_info": {
+          "package_name": "me.lokmvne.app3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300008436243-i4v7vnt8hincojsfef13pp9iaiho82ap.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.lokmvne.app3",
+            "certificate_hash": "0b19e6cd88c13c4974b84dc13863ffe8c4de8c82"
+          }
+        },
+        {
+          "client_id": "300008436243-kk1vogpnb77m93ilvdnceeetc2vc2r5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_c-S7p-0qo5LhpStpn8QWp39Aa1kZ17s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300008436243-kk1vogpnb77m93ilvdnceeetc2vc2r5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

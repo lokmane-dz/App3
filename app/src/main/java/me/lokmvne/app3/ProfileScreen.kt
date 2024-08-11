@@ -133,7 +133,7 @@ fun ProfileScreen(
                     }
                 }
                 Spacer(modifier = Modifier.height(16.dp))
-                Text(text = user.value.userId ?: "no data")
+                Text(text = user.value.userId)
                 Spacer(modifier = Modifier.height(20.dp))
                 Text(
                     text = user.value.phone ?: "no data",

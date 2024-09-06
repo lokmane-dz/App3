@@ -65,6 +65,8 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.androidx.ui.text.google.fonts)
     implementation(libs.firebase.auth.ktx)
+    implementation(libs.firebase.storage.ktx)
+    implementation(libs.androidx.hilt.common)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -76,6 +78,8 @@ dependencies {
     implementation( libs.androidx.credentials)
     implementation( libs.androidx.credentials.play.services.auth)
     implementation( libs.googleid)
+
+
 
     //viewmodel
     implementation(libs.androidx.viewmodel.compose)
@@ -92,4 +96,10 @@ dependencies {
     implementation(libs.androidx.hilt.navigation.compose)
     ksp(libs.google.dagger.hilt.android.compiler)
     ksp(libs.androidx.dagger.hilt.compiler)
+    implementation(libs.androidx.hilt.work)
+
+    // Kotlin + coroutines
+    implementation(libs.androidx.work.runtime.ktx)
+    // optional - GCMNetworkManager support
+    implementation(libs.androidx.work.gcm)
 }
